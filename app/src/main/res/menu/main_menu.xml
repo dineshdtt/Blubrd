@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/notification"
+        android:orderInCategory="100"
+        android:title="@string/str_notification"
+        android:icon="@drawable/ic_action_notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/about_us"
+        android:orderInCategory="100"
+        android:title="@string/nav_about_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="@string/str_share_app"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="@string/str_feedback"
+        app:showAsAction="never" />
+</menu>
